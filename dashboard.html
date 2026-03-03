@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="sidebar">
+  <h3>Menu</h3>
+  
+    <button onclick="showDashboard()">Dashboard</button>
+  <button onclick="showProducts()">Products</button>
+  <button onclick="showEvents()">Events</button>
+  <button onclick="showMentoring()">Mentoring</button>
+  <button onclick="showMailbox()">Mailbox</button>
+  <button onclick="logout()">Logout</button>
+  
+  
+</div>
+
+<div class="main">
+  <div id="scoreBox" class="score"></div>
+  <div id="content"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

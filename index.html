@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Women Business Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center-box">
+  <h2>Women Marketplace</h2>
+
+  <select id="role" onchange="toggleFields()">
+    <option value="seller">Seller</option>
+    <option value="buyer">Buyer</option>
+  </select>
+
+  <input id="phone" placeholder="Phone">
+  <input id="password" type="password" placeholder="Password">
+  <input id="name" placeholder="Name">
+
+  <div id="sellerFields">
+    <input id="businessName" placeholder="Business Name">
+    <input id="description" placeholder="Business Description">
+  </div>
+
+  <input id="address" placeholder="Address">
+
+  <button onclick="register()">Register</button>
+
+  <hr>
+
+  <input id="loginPhone" placeholder="Phone">
+  <input id="loginPassword" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+
+  <p><b>Preloaded Seller:</b> 9999999999 / 1234</p>
+  <p><b>Preloaded Buyer:</b> 8888888888 / 1234</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
